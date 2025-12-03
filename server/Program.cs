@@ -37,7 +37,7 @@ namespace server
             // Controllers
             builder.Services.AddControllers();
 
-            // Swagger (àí úøöé)
+            // Swagger (ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
