@@ -70,7 +70,7 @@ export class GaragesComponent implements OnInit {
     }
 
     // check which of the selected garages are not already in the DB:
-    //by unique key (misparMosah)
+    //by unique key 
     const dbKeys = new Set(
       this.dbGarages.map(g => this.buildGarageKey(g))
     );
